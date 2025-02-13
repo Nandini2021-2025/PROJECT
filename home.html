@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Form </title>
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="static/assets/bootstrap/css/bootstrap.min.css" />	
+
+	<!-- Fontawesome -->
+	<link href="static/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+	<link href="static/assets/fontawesome/css/brands.css" rel="stylesheet">
+	<link href="static/assets/fontawesome/css/solid.css" rel="stylesheet">
+	<!-- slicknav -->
+	<link rel="stylesheet" type="text/css" href="static/assets/css/slicknav.css" />	
+	<!-- YouTubePopUp -->
+	<link rel="stylesheet" type="text/css" href="static/assets/css/YouTubePopUp.css" />	
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="static/assets/css/slick.css" />	
+	<link rel="stylesheet" type="text/css" href="static/assets/css/slick-theme.css" />	
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="static/assets/css/style.css" />		
+	<!-- Responsive -->
+	<link rel="stylesheet" type="text/css" href="static/assets/css/responsive.css" />	
+	
+</head>
+
+<body>
+
+	<!-- START PRELOADER -->
+	<div class="preloader">
+		<div class="status">
+			<div class="status-mes"></div>
+		</div>
+	</div>
+	 <!--  PRELOADER -->
+	 
+	<!-- Start Header -->
+	<header id="header-area">
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-xl-3 col-lg-3 col-4">
+					<div class="site-logo">
+						<a href="#"><img src="static/assets/img/nids.png" alt="robotix" /></a>
+					</div>
+				</div><!-- End Col -->				
+				
+				<div class="col-xl-6 col-lg-6 col-8 text-center">
+					<nav class="navigation">
+						<ul>
+							
+							
+							<li><a href="/home">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/notebook">Notebook</a></li>
+						</ul>
+					</nav>
+					<div id="mobile_menu"></div>
+				</div><!-- End Col -->				
+				
+				<div class="col-xl-3 col-lg-3 col-12 text-end d-none  d-lg-block">
+					<a href="/login" class="login_btn">Signout</a>
+				</div><!-- End Col -->
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+	
+	<!-- Start Banner -->
+	<section class="home-slider-area" >
+		<div class="container">
+			<div class="home-slider">
+				<div class="single-slide" >
+					<div class="row d-flex align-items-center">
+						<div class="col-xl-7 col-lg-7 col-md-12 col-12">
+							<div class="slider-content">
+								<h2>Welcome <br/> to <span>Dashboard</span> <br/></h2>
+								<p>
+									Machine Learning Approach to Anomaly Detection Attacks Classification in IoT Devices
+								</p>
+								<a href="#" class="main_btn">Get Started</a>
+								
+							</div>
+						</div><!-- End Col -->
+						
+						<div class="col-xl-5 col-lg-5 col-12 d-none d-lg-block">
+							<div class="slider-image">
+								<img src="static/assets/img/banner.png" alt="banner Image" />
+								
+														
+							</div>							
+						</div><!-- End Col -->
+					</div>
+				</div><!-- End Single Slide -->
+			</div>
+		</div>
+		
+		<div class="bubble_1 "><img src="static/assets/img/bubles/1.svg" alt="bubble"/></div>
+		<div class="bubble_2 fade-in"><img src="static/assets/img/bubles/2.svg" alt="bubble"/></div>
+		<div class="bubble_3 swing"><img src="static/assets/img/bubles/3.svg" alt="bubble"/></div>
+		<div class="bubble_4 bounce"><img src="static/assets/img/bubles/4.svg" alt="bubble"/></div>
+		<div class="bubble_5 pulse"><img src="static/assets/img/bubles/5.svg" alt="bubble"/></div>
+
+	</section>
+	<!-- End Banner -->
+	
+	<!-- Start About -->
+	<section id="about" class="about-us section-padding light">
+		<div class="container">
+			<div class="row d-flex align-items-center">
+            <form action="/predict" method="post" style="width: 50%;font-size: 1.2em;margin-left: 5px;border-color: black;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8">
+              <div class="col-8">
+                <div class="form-group">
+                  <label for="age">Service</label>
+                  <input class="form-control" type="text" id="age" name="0" required="required">
+                </div>
+              <div class="form-group">
+                <label for="age">Flag</label>
+                <input class="form-control" type="text" id="age" name="1" required="required">
+              </div>
+
+                     
+          
+              <div class="form-group">
+                <label for="age">Src-Bytes</label>
+                <input class="form-control" type="text" id="age" name="2" required="required">
+              </div>
+          
+
+          
+                <div class="form-group">
+                  <label for="age">Dst-Bytes</label>
+                  <input class="form-control" type="text" id="age" name="3" required="required">
+                </div>
+              
+                <div class="form-group">
+                  <label for="age">Count</label>
+                  <input class="form-control" type="text" id="age" name="4" required="required">
+                </div>
+
+               
+                <div class="form-group">
+                  <label for="age">Serror_rate</label>
+                  <input class="form-control" type="text" id="age" name="5" required="required">
+                </div>
+
+                <div class="form-group">
+                  <label for="age">Srv_serror_rate</label>
+                  <input class="form-control" type="text" id="age" name="6" required="required">
+                </div>
+
+                <div class="form-group">
+                  <label for="age">Same_srv_rate</label>
+                  <input class="form-control" type="text" id="age" name="7" required="required">
+                </div>
+          
+                <div class="form-group">
+                  <label for="age">Diff_srv_rate</label>
+                  <input class="form-control" type="text" id="age" name="8" required="required">
+                </div>
+          
+                <div class="form-group">
+                  <label for="age">Dst_host_srv_count</label>
+                  <input class="form-control" type="text" id="age" name="9" required="required">
+                </div>
+
+                <div class="form-group">
+                  <label for="age">Dst_host_same_srv_rate</label>
+                  <input class="form-control" type="text" id="age" name="10" required="required">
+                </div>
+
+                <div class="form-group">
+                  <label for="age">Dst_host_diff_srv_rate</label>
+                  <input class="form-control" type="text" id="age" name="11" required="required">
+                </div>
+
+                <div class="form-group">
+                  <label for="age">Dst_host_serror_rate</label>
+                  <input class="form-control" type="text" id="age" name="12" required="required">
+                </div>
+
+                <div class="form-group">
+                  <label for="age">Dst_host_srv_serror_rate</label>
+                  <input class="form-control" type="text" id="age" name="13" required="required">
+                </div>
+
+
+                <button type="submit" class="button" style="background-color: #04AA6D; /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;">Predict</button>
+            </form>
+          <br>
+          <br><br><br><br>
+          <div class="shape_1"><img src="static/assets/img/shapes/1.svg" height="450" alt="bubble"/></div>		
+          <div class="shape_2"><img src="static/assets/img/shapes/2.svg" height="450" alt="bubble"/></div>		
+        </section>
+        <!-- End About -->
+        
+        
+        <!-- End Footer -->
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-12">
+                <div class="single-footer">
+                  <div class="footer-about">
+                    <a href="#" class="site-logo"><img src="static/assets/img/nids.png" alt="robotix"/></a>
+                  
+                  </div>
+                </div>
+              </div><!-- End Col -->					
+              
+                    
+            
+            
+      
+              <div class="col-12">
+                <div class="copyright text-center">
+                  <p>
+                    @ <span id="curyear"></span>. All Rights Reserved by Robotix
+                  </p>
+                </div>
+              </div><!-- End Col -->
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer -->
+      
+        <!-- Start progress-wrap -->
+        <div class="progress-wrap">
+          <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+          </svg>
+        </div>
+        <!-- End progress-wrap -->
+        
+        <!-- Latest jQuery -->
+        <script src='static/assets/js/jquery.js'></script>
+        <script src='static/assets/bootstrap/js/bootstrap.min.js'></script>
+        <script src='static/assets/js/jquery.slicknav.js'></script>
+        <script src='static/assets/js/slick.min.js'></script>
+        <script src='static/assets/js/YouTubePopUp.jquery.js'></script>
+        <script src="static/assets/js/script.js"></script>
+      </body>
+      </html>
